@@ -7,4 +7,6 @@ setup(name='clean_folder',
       author='Yaroslav Vdovenko',
       author_email='hedgy2813@gmail.com',
       license='MIT',
-      packages=['clean_folder'])
+      packages=['clean_folder'],
+      entry_points={'console_scripts': ['sortfilesfolders=clean_folder.clean:sort_files_folders']}
+)
